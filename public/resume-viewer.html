@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mayank Hansraj — Resume</title>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { height: 100%; background: #080808; }
+      .bar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 24px;
+        height: 48px;
+        background: #111111;
+        border-bottom: 1px solid #222222;
+      }
+      .bar-name {
+        font-family: 'Space Mono', monospace;
+        font-size: 11px;
+        color: #a0a0a0;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+      }
+      .bar-logo {
+        font-family: Arial Black, sans-serif;
+        font-size: 11px;
+        font-weight: 900;
+        color: #C8FF00;
+        letter-spacing: 0.08em;
+        text-decoration: none;
+        border: 1.5px solid #C8FF00;
+        padding: 4px 8px;
+        border-radius: 4px;
+      }
+      .bar-dl {
+        font-family: 'Space Mono', monospace;
+        font-size: 10px;
+        color: #a0a0a0;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        text-decoration: none;
+        border: 1px solid #333;
+        padding: 6px 14px;
+        transition: border-color 0.2s, color 0.2s;
+      }
+      .bar-dl:hover { border-color: #C8FF00; color: #C8FF00; }
+      embed {
+        display: block;
+        width: 100%;
+        height: calc(100vh - 48px);
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bar">
+      <a href="/" class="bar-logo">MH</a>
+      <span class="bar-name">Mayank Hansraj — Resume</span>
+      <a href="/MayankHansraj_Resume.pdf" download="MayankHansraj_Resume.pdf" class="bar-dl">
+        Download ↓
+      </a>
+    </div>
+    <embed src="/MayankHansraj_Resume.pdf" type="application/pdf" />
+  </body>
+</html>

@@ -1,0 +1,88 @@
+import type { ExperienceItem } from '../types'
+
+export const experienceItems: ExperienceItem[] = [
+  {
+    type: 'certification',
+    title: 'The Complete Python Bootcamp From Zero to Hero in Python',
+    subtitle: 'Udemy',
+    date: '2023',
+    link: 'https://www.udemy.com/certificate/UC-7fa07bda-3f06-4f8b-a04a-074e2e68429c/',
+  },
+  {
+    type: 'certification',
+    title: 'Tableau for Finance: Visualize Financial Data using Tableau',
+    subtitle: 'Udemy',
+    date: '2025',
+    link: 'https://www.udemy.com/certificate/UC-4be21e5c-c456-445a-9b17-f6f5c05730a7/',
+  },
+  {
+    type: 'certification',
+    title: 'Master JavaScript, HTML, and CSS with 30 Projects in 30 Days',
+    subtitle: 'Udemy',
+    date: '2025',
+    link: 'https://www.udemy.com/certificate/UC-f77af6b0-cdf6-4fa4-93d7-cae36885aa2e/',
+  },
+  {
+    type: 'certification',
+    title: 'Introduction to R Programming for Data Science',
+    subtitle: 'IBM',
+    date: '2025',
+    link: 'https://coursera.org/share/6232d4f71059a45339d425047c1dc2d8',
+  },
+  {
+    type: 'certification',
+    title: 'Introduction to Artificial Intelligence (AI)',
+    subtitle: 'IBM',
+    date: '2025',
+    link: 'https://coursera.org/share/497a590bad05c321771300113a128e08',
+  },
+  {
+    type: 'certification',
+    title: 'IBM Introduction to Machine Learning Specialization',
+    subtitle: 'IBM',
+    date: '2025',
+    link: 'https://www.coursera.org/account/accomplishments/specialization/AKNISKYZX10O',
+  },
+  {
+    type: 'certification',
+    title: 'DevOps Culture and Mindset',
+    subtitle: 'University of California, Davis',
+    date: '2025',
+    link: 'https://www.coursera.org/account/accomplishments/records/GQ00ALEEUBPU',
+  },
+  {
+    type: 'certification',
+    title: 'Exploratory Data Analysis for Machine Learning (with Honors)',
+    subtitle: 'IBM',
+    date: '2025',
+    link: 'https://www.coursera.org/account/accomplishments/records/W8TJ4DDHGNMN',
+  },
+  {
+    type: 'certification',
+    title: 'Supervised Machine Learning: Regression (with Honors)',
+    subtitle: 'IBM',
+    date: '2025',
+    link: 'https://www.coursera.org/account/accomplishments/records/HQORUV1IL832',
+  },
+  {
+    type: 'certification',
+    title: 'Supervised Machine Learning: Classification',
+    subtitle: 'IBM',
+    date: '2025',
+    link: 'https://www.coursera.org/account/accomplishments/records/HOY6BNB57F2A',
+  },
+  {
+    type: 'certification',
+    title: 'Unsupervised Machine Learning',
+    subtitle: 'IBM',
+    date: '2025',
+    link: 'https://www.coursera.org/account/accomplishments/records/Q7QUHA1N5CC9',
+  },
+  {
+    type: 'certification',
+    title: 'AWS Cloud Technical Essentials',
+    subtitle: 'Amazon Web Services',
+    date: '2025',
+    link: 'https://www.coursera.org/account/accomplishments/records/ICO0SQ6A7NAC',
+  },
+]

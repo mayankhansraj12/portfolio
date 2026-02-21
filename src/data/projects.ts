@@ -1,0 +1,95 @@
+import type { Project } from '../types'
+
+export const projects: Project[] = [
+  {
+    id: 'bnb',
+    title: 'BNB',
+    description:
+      'A full-stack Airbnb-inspired platform. Users can create listings, browse stays, make and cancel bookings, and rate properties. Covers end-to-end full-stack development including auth, CRUD, image uploads, and deployment.',
+    longDescription: '',
+    tech: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'Tailwind CSS', 'Cloudinary'],
+    github: 'https://github.com/mayankhansraj12/BNB',
+    demo: 'https://bnb-5xn5.vercel.app/',
+    thumbnail: '/thumbnail/bnb.png',
+    gradient: 'from-[#C8FF00]/20 to-[#080808]',
+    category: 'Full-Stack',
+  },
+  {
+    id: 'authentication',
+    title: 'Authentication',
+    description:
+      'A full-stack authentication system with email verification, secure login, password reset, protected routes, and JWT via HTTP-only cookies. Uses Zustand for state management.',
+    longDescription: '',
+    tech: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'JWT', 'MailTrap'],
+    github: 'https://github.com/mayankhansraj12/Authentication',
+    demo: 'https://github.com/mayankhansraj12/Authentication',
+    thumbnail: '/thumbnail/authentication.png',
+    gradient: 'from-[#FF4D6D]/20 to-[#080808]',
+    category: 'Full-Stack',
+  },
+  {
+    id: 'ai-content',
+    title: 'AI Content Writing Platform',
+    description:
+      'An AI-powered platform for specialized content creation with real-time chat, streaming responses, dynamic AI agents, and live web search. Engineered beyond a simple LLM wrapper — focuses on streaming architecture, agent lifecycle, and tool orchestration.',
+    longDescription: '',
+    tech: ['React.js', 'Node.js', 'Express.js', 'TypeScript', 'OpenAI', 'GetStream', 'Tavily'],
+    github: 'https://github.com/mayankhansraj12/AI-Content-Writing-Platform',
+    demo: 'https://github.com/mayankhansraj12/AI-Content-Writing-Platform',
+    thumbnail: '/thumbnail/aicontentwriting.png',
+    gradient: 'from-[#00D4FF]/20 to-[#080808]',
+    category: 'AI / Full-Stack',
+  },
+  {
+    id: 'streamsync',
+    title: 'StreamSync',
+    description:
+      'A real-time web app for watching YouTube videos in perfect sync with others, with live voice and text chat. Built for low latency and high engagement.',
+    longDescription: '',
+    tech: ['React', 'TypeScript', 'Tailwind CSS', 'Node.js', 'Express', 'Socket.io', 'MongoDB', 'WebRTC'],
+    github: 'https://github.com/mayankhansraj12/youtube-streamer',
+    demo: 'https://streamsynclive.vercel.app/',
+    thumbnail: '/thumbnail/youtube-streamer.png',
+    gradient: 'from-[#FF4D6D]/15 via-[#C8FF00]/10 to-[#080808]',
+    category: 'Real-Time',
+  },
+  {
+    id: 'dezin-ai',
+    title: 'Dezin AI',
+    description:
+      'An AI-powered React component generator. Describe UI in plain language and get live-rendered React components instantly. Features a 5-model Gemini fallback system, VS Code-style code viewer, and real-time preview.',
+    longDescription: '',
+    tech: ['React', 'TypeScript', 'Tailwind CSS', 'Node.js', 'Express', 'Google Gemini API'],
+    github: 'https://github.com/mayankhansraj12/Dezin',
+    demo: 'https://dezin.mayankhansraj.me',
+    thumbnail: '/thumbnail/dezinai.png',
+    gradient: 'from-[#C8FF00]/15 via-[#00D4FF]/10 to-[#080808]',
+    category: 'AI / Tooling',
+  },
+  {
+    id: 'invoice-manager',
+    title: 'Invoice Manager',
+    description:
+      'A full-stack invoice management app. View invoice details, record payments with real-time balance updates, and track status automatically from DRAFT to PAID. Clean, responsive UI.',
+    longDescription: '',
+    tech: ['React', 'Vite', 'Tailwind CSS', 'Framer Motion', 'Node.js', 'Express', 'MongoDB'],
+    github: 'https://github.com/mayankhansraj12/invoice-manager',
+    demo: 'https://invoicemanager.mayankhansraj.me',
+    thumbnail: '/thumbnail/invoicemanager.png',
+    gradient: 'from-[#00D4FF]/20 to-[#080808]',
+    category: 'Full-Stack',
+  },
+  {
+    id: 'digital-library',
+    title: 'Digital Library',
+    description:
+      'A MERN-based digital catalog for a physical library. Members can browse books and check real-time availability before visiting. Admins manage inventory. Secured with JWT and Role-Based Access Control.',
+    longDescription: '',
+    tech: ['React', 'Vite', 'Tailwind CSS', 'Node.js', 'Express', 'MongoDB', 'JWT', 'RBAC'],
+    github: 'https://github.com/mayankhansraj12/digital-library',
+    demo: 'https://digilib.mayankhansraj.me',
+    thumbnail: '/thumbnail/digitallibrary.png',
+    gradient: 'from-[#C8FF00]/10 via-[#FF4D6D]/10 to-[#080808]',
+    category: 'Full-Stack',
+  },
+]
