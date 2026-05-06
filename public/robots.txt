@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mayankhansraj.vercel.app/sitemap.xml
+Sitemap: https://www.mayankhansraj.me/sitemap.xml
